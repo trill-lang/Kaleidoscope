@@ -16,3 +16,12 @@ project will build:
     installed LLVM.
 - `git clone https://github.com/trill-lang/LLVMSwift.git`
 - Run `swift LLVMSwift/utils/make-pkgconfig.swift`
+
+# Author
+
+- Harlan Haskins ([@harlanhaskins](https://github.com/harlanhaskins))
+
+# License
+
+This project is released under the MIT license, a copy of which is available
+in this repository.
