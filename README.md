@@ -1,7 +1,7 @@
 # Kaleidoscope
 
 Kaleidoscope is a language used in tutorials for the
-[LLVM Compiler Project](llvm.org/docs/tutorial)
+[LLVM Compiler Project](http://llvm.org/docs/tutorial/)
 
 This repo contains an implementation of the Kaleidoscope compiler in Swift,
 as it was presented to Playgrounds Conference on Feb. 23rd, 2017.
