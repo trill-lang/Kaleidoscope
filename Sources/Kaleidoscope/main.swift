@@ -11,7 +11,7 @@ do {
     }
 
     let path = URL(fileURLWithPath: CommandLine.arguments[1])
-    let input = try String(contentsOf: path)
+    let input = try String(contentsOf: path, encoding: .utf8)
     let toks = Lexer(input: input).lex()
     let file = try Parser(tokens: toks).parseFile()
     let irGen = IRGenerator(file: file)
